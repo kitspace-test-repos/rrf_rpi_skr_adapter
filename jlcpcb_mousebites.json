@@ -1,0 +1,34 @@
+{
+	"layout":
+	{
+		"type": "grid", 
+		"rows": 5,
+		"cols": 4,
+		"space": "2mm"
+	},
+	"tabs":
+	{
+		"type": "fixed",
+		"width": "5mm"
+	},
+	"cuts":
+	{
+		"type": "mousebites",
+		"drill": "0.5mm",
+		"spacing": "1mm",
+		"offset": "0.2mm",
+		"prolong": "0.5mm"
+	},
+	"framing":
+	{
+		"type": "frame",
+		"width": "5mm",
+		"space": "3mm",
+		"cuts": "both"
+	},
+	"source":
+	{
+		"type": "auto",
+		"tolerance": "10mm" 
+	}
+}

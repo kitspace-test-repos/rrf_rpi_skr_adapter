@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>E:\tmp\rrf_rpi_skr_adapter\rrf_rpi_skr_adapter.kicad_sch</source>
+    <date>8/19/2022 9:43:12 AM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>RepRapFirmware Raspberry Pi-to-SKR Adapter</title>
+        <company>Scott Alfter</company>
+        <rev>1.0</rev>
+        <date>2022-08-19</date>
+        <source>rrf_rpi_skr_adapter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>RPi GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Horizontal</footprint>
+      <datasheet>https://app.adam-tech.com/products/download/data_sheet/200508/ph2ra-xx-ua-data-sheet.pdf</datasheet>
+      <fields>
+        <field name="Description">Connector Header Through Hole, Right Angle 2x3 position 0.100" (2.54mm)</field>
+        <field name="DigiKey_SKU">2057-PH2RA-06-UA-ND</field>
+        <field name="Inv_ID">60</field>
+        <field name="LCSC_SKU">C706884</field>
+        <field name="MPN">PH2RA-06-UA</field>
+        <field name="Manufacturer">Adam Tech</field>
+        <field name="Notes">LCSC SKU is substitute:: XKB X6521WR-2x03H-C30D60</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="Connector Header Through Hole, Right Angle 2x3 position 0.100&quot; (2.54mm)"/>
+      <property name="DigiKey_SKU" value="2057-PH2RA-06-UA-ND"/>
+      <property name="Inv_ID" value="60"/>
+      <property name="LCSC_SKU" value="C706884"/>
+      <property name="MPN" value="PH2RA-06-UA"/>
+      <property name="Manufacturer" value="Adam Tech"/>
+      <property name="Notes" value="LCSC SKU is substitute:: XKB X6521WR-2x03H-C30D60"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ebe06828-eed7-4051-9bce-7977498c10a8</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SKR EXP2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Horizontal</footprint>
+      <datasheet>https://s3.amazonaws.com/catalogspreads-pdf/PAGE123%20.100%20SFH11%20SERIES%20FEMALE%20HDR%20ST%20RA.pdf</datasheet>
+      <fields>
+        <field name="Description">2x5 Position Header Connector 0.100" (2.54mm) Through Hole, Right Angle Gold</field>
+        <field name="DigiKey_SKU">S9202-ND</field>
+        <field name="Inv_ID">61</field>
+        <field name="LCSC_SKU">C239356</field>
+        <field name="MPN">SFH11-PBPC-D05-RA-BK</field>
+        <field name="Manufacturer">Sullins Connector Solutions</field>
+        <field name="Notes">LCSC SKU is substitute: CJT A2541HWR-2x5P</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x05_Odd_Even" description="Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Description" value="2x5 Position Header Connector 0.100&quot; (2.54mm) Through Hole, Right Angle Gold"/>
+      <property name="DigiKey_SKU" value="S9202-ND"/>
+      <property name="Inv_ID" value="61"/>
+      <property name="LCSC_SKU" value="C239356"/>
+      <property name="MPN" value="SFH11-PBPC-D05-RA-BK"/>
+      <property name="Manufacturer" value="Sullins Connector Solutions"/>
+      <property name="Notes" value="LCSC SKU is substitute: CJT A2541HWR-2x5P"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8a166633-4589-42c5-8407-47dc6468b367</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">100 Ω 0603 resistor</field>
+        <field name="DigiKey_SKU">311-100HRCT-ND</field>
+        <field name="Inv_ID">49</field>
+        <field name="LCSC_SKU">C105588</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mouser_SKU">603-RC0603FR-07100RL</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="100 Ω 0603 resistor"/>
+      <property name="DigiKey_SKU" value="311-100HRCT-ND"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Package" value="0603"/>
+      <property name="Inv_ID" value="49"/>
+      <property name="LCSC_SKU" value="C105588"/>
+      <property name="Mouser_SKU" value="603-RC0603FR-07100RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84eba28b-70bb-4ae3-9f5a-ae6a3cef21c5</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">100 Ω 0603 resistor</field>
+        <field name="DigiKey_SKU">311-100HRCT-ND</field>
+        <field name="Inv_ID">49</field>
+        <field name="LCSC_SKU">C105588</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mouser_SKU">603-RC0603FR-07100RL</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="100 Ω 0603 resistor"/>
+      <property name="DigiKey_SKU" value="311-100HRCT-ND"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Package" value="0603"/>
+      <property name="Inv_ID" value="49"/>
+      <property name="LCSC_SKU" value="C105588"/>
+      <property name="Mouser_SKU" value="603-RC0603FR-07100RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b45884f7-16e3-401a-9da3-76ce297ee751</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">100 Ω 0603 resistor</field>
+        <field name="DigiKey_SKU">311-100HRCT-ND</field>
+        <field name="Inv_ID">49</field>
+        <field name="LCSC_SKU">C105588</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mouser_SKU">603-RC0603FR-07100RL</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="100 Ω 0603 resistor"/>
+      <property name="DigiKey_SKU" value="311-100HRCT-ND"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Package" value="0603"/>
+      <property name="Inv_ID" value="49"/>
+      <property name="LCSC_SKU" value="C105588"/>
+      <property name="Mouser_SKU" value="603-RC0603FR-07100RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f43ce1d5-2f9d-4c36-b2e9-93aa302e1755</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">100 Ω 0603 resistor</field>
+        <field name="DigiKey_SKU">311-100HRCT-ND</field>
+        <field name="Inv_ID">49</field>
+        <field name="LCSC_SKU">C105588</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mouser_SKU">603-RC0603FR-07100RL</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="100 Ω 0603 resistor"/>
+      <property name="DigiKey_SKU" value="311-100HRCT-ND"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Package" value="0603"/>
+      <property name="Inv_ID" value="49"/>
+      <property name="LCSC_SKU" value="C105588"/>
+      <property name="Mouser_SKU" value="603-RC0603FR-07100RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>de144e33-d88d-4dd0-968b-d46a525400bc</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <datasheet>https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf</datasheet>
+      <fields>
+        <field name="Description">100 Ω 0603 resistor</field>
+        <field name="DigiKey_SKU">311-100HRCT-ND</field>
+        <field name="Inv_ID">49</field>
+        <field name="LCSC_SKU">C105588</field>
+        <field name="MPN">RC0603FR-07100RL</field>
+        <field name="Manufacturer">Yageo</field>
+        <field name="Mouser_SKU">603-RC0603FR-07100RL</field>
+        <field name="Package">0603</field>
+      </fields>
+      <libsource lib="Device" part="R_US" description="Resistor, US symbol"/>
+      <property name="Description" value="100 Ω 0603 resistor"/>
+      <property name="DigiKey_SKU" value="311-100HRCT-ND"/>
+      <property name="MPN" value="RC0603FR-07100RL"/>
+      <property name="Manufacturer" value="Yageo"/>
+      <property name="Package" value="0603"/>
+      <property name="Inv_ID" value="49"/>
+      <property name="LCSC_SKU" value="C105588"/>
+      <property name="Mouser_SKU" value="603-RC0603FR-07100RL"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="rrf_rpi_skr_adapter.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99add5e7-1609-4ba5-a06b-06fd7727403b</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x05_Odd_Even">
+      <description>Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x05_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_US">
+      <description>Resistor, US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="BCM25">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="3" name="PB12">
+      <node ref="J2" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+    </net>
+    <net code="4" name="PB13">
+      <node ref="J2" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="5" name="PB14">
+      <node ref="J2" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="6" name="PB15">
+      <node ref="J2" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="7" name="PF11">
+      <node ref="J2" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="8" name="PF12">
+      <node ref="J2" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="PF13">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="10" name="PG10">
+      <node ref="J2" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="11" name="RST">
+      <node ref="J2" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="12" name="SPI0_CE">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="SPI0_CLK">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="SPI0_MISO">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="15" name="SPI0_MOSI">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>
