@@ -1,10 +1,20 @@
-rrf_rpi_skr_adapter:
-    summary: Raspberry Pi to SKR/SKR Pro Adapter for ReprapFirmware
-    color: green
-    gerbers: fabrication
-    eda:
-        type: kicad
-        pcb: rrf_rpi_skr_adapter.kicad_pcb
-        schematic: rrf_rpi_skr_adapter.kicad_sch
-    bom: 1-click-bom.tsv
-    readme: README.md
+multi:
+    rrf_rpi_skr_adapter:
+        summary: Raspberry Pi to SKR/SKR Pro Adapter for ReprapFirmware
+        color: green
+        gerbers: fabrication
+        eda:
+            type: kicad
+            pcb: rrf_rpi_skr_adapter.kicad_pcb
+            schematic: rrf_rpi_skr_adapter.kicad_sch
+        bom: 1-click-bom.tsv
+        readme: README.md
+    rrf_rpi_skr_adapter_panel:
+        summary: Raspberry Pi to SKR/SKR Pro Adapter for ReprapFirmware (panel)
+        color: green
+        gerbers: fabrication_panelized
+        eda:
+            type: kicad
+            pcb: rrf_rpi_skr_adapter.kicad_pcb-panel.kicad_pcb
+        bom: 1-click-bom.tsv
+        readme: README.md
