@@ -6,7 +6,6 @@ multi:
         eda:
             type: kicad
             pcb: rrf_rpi_skr_adapter.kicad_pcb
-            schematic: rrf_rpi_skr_adapter.kicad_sch
         bom: 1-click-bom.tsv
         readme: README.md
     rrf_rpi_skr_adapter_panel:
